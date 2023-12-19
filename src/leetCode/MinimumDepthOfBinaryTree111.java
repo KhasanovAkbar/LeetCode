@@ -28,12 +28,19 @@ public class MinimumDepthOfBinaryTree111 {
             return 1 + minDepth(root.right);
         if (root.right == null)
             return 1 + minDepth(root.left);
-        return 1 + Math.min(minDepth(root.left), minDepth(root.right));
+        return 1 + Math.min(
+                minDepth(root.left),
+                minDepth(root.right));
     }
 
     public static void main(String[] args) {
         MinimumDepthOfBinaryTree111 m = new MinimumDepthOfBinaryTree111();
-        TreeNode node = new TreeNode(2, new TreeNode(null, new TreeNode(3, new TreeNode(null, new TreeNode(4)))));
+        TreeNode node = new TreeNode(2);
+        node.left = new TreeNode(3);
+        node.right = new TreeNode(4);
+        node.left.left = new TreeNode(5);
+        node.left.right = new TreeNode(6);
+        node.right.left = new TreeNode(7);
 
         System.out.println(m.minDepth(node));
     }
