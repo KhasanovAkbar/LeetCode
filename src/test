@@ -1,0 +1,79 @@
+// Populate the question and answer database
+var questionAnswerDatabase = {
+    "":"",
+
+    "Qarshi muhandislik - iqtisodiyot instituti":"Hello",
+    "Qarshi muhandislik ":"- iqtisodiyot instituti"
+    "What is the capital of France?": "Paris",
+    "What is the largest planet in our solar system?": "Jupiter",
+    "Who wrote 'Romeo and Juliet'?": "William Shakespeare",
+    "Utilized Hibernate and JPA for seamless database integration": "Database Expert"
+};
+
+// Function to find a matching question with partial matching and context
+function findMatchingAnswer(userInput, database) {
+    var maxLengthDifference = 5; // Adjust the maximum allowed length difference
+
+    for (var question in database) {
+        if (database.hasOwnProperty(question)) {
+            // Check if the lengths are close
+            var lengthDifference = Math.abs(question.length - userInput.length);
+            if (lengthDifference <= maxLengthDifference) {
+                // Use a regular expression for partial matching
+                var regex = new RegExp(userInput, 'i');
+                if (question.match(regex)) {
+                    return database[question]; // Return the answer
+                }
+            }
+        }
+    }
+    return null;
+}
+
+// Function to simulate text markup and get trimmed text
+function simulateTextMarkup() {
+    var selection = window.getSelection();
+    if (selection && !selection.isCollapsed) {
+        var trimmedText = selection.toString().trim(); // Get the trimmed text
+
+        if (trimmedText.length > 0) {
+            var matchingAnswer = findMatchingAnswer(trimmedText, questionAnswerDatabase);
+            var answerContainer = document.getElementById("answerContainer");
+            var websiteBackgroundColor = getComputedStyle(document.body).backgroundColor;
+
+            if (matchingAnswer) {
+                // Display the matched answer
+                answerContainer.innerHTML = `Matched Answer: ${matchingAnswer}`;
+                answerContainer.style.color = "grey"; // Set text color to grey
+                answerContainer.style.background = websiteBackgroundColor; // Match website's background
+                answerContainer.style.opacity = 1; // Make answer visible
+
+                // Reset answer after 10 seconds
+                setTimeout(function () {
+                    answerContainer.innerHTML = "";
+                    answerContainer.style.color = ""; // Reset text color
+                    answerContainer.style.background = ""; // Reset background
+                    answerContainer.style.opacity = 0.5; // Gray out the answer
+                }, 10000);
+            } else {
+                answerContainer.innerHTML = "No matching answer found"; // Clear the answer if no matching answer
+            }
+        }
+    }
+}
+
+// Event listener for mouseup event (triggered when the user releases the mouse button)
+document.addEventListener("mouseup", simulateTextMarkup);
+
+// Create the answer container
+var answerContainer = document.createElement("div");
+answerContainer.id = "answerContainer";
+document.body.appendChild(answerContainer);
+
+// Apply styles to the answer container
+answerContainer.style.position = "fixed";
+answerContainer.style.bottom = "10px";
+answerContainer.style.left = "10px";
+answerContainer.style.padding = "10px";
+answerContainer.style.borderRadius = "5px";
+answerContainer.style.opacity = 0; // Set initial opacity to hide the answer

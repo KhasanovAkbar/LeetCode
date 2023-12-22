@@ -1,0 +1,278 @@
+// Populate the question and answer database
+var questionAnswerDatabase = {
+    "":"",
+"2019 yil 1 oktabrdan korxonalarning bankdagi hisobraqamlarini yopish tartibi to’xtalishi O’zbekiston Respublikasi Prezidentining qaysi Farmoniga asosan bekor qilindi?" : "2019 yil 26-sentabr PF-5837-sonli",
+"2019 yil 1 yanvardan qancha miqdordan oshgan korxonalar umumbelgilangan soliqlarni to’lashga o’tishdi?" : "bir milliarddan oshgan",
+"O’zbekiston Respublikasi Prezidentining “Soliq ma’muriyatchiligini takomillashtirish bo’yicha qo’shimcha chora-tadbirlar to’g‘risidagi PQ-4389-sonli Qarori qachon qabul qilindi?" : "2019 yil 10 iyul",
+"O’zbekiston Respublikasi Konstitutsiyasining “Fuqoralar qonun bilan belgilangan soliqlar va mahalliy yig’imlarni to’lashga majburdirlar” qaysi moddasida bayon qilingan?" : "51-moddasida",
+"Pаttа to’lоvini bоzоrlаrdа kimlar to’laydi?" : "tоvаrlаr, buyumlаr vа qishlоq хo’jаligi mаhsulоtlаri sоtishni аmаlgа оshirаyotgаn jismоniy shахslаr",
+"Soliq.....bu ?" : "soliq  deganda  O’zbekiston Respublikasining  Davlat  byudjetiga  yoki  davlat  maqsadli  jamg’armasiga to’lanadigan majburiy beg’araz to’lov tushuniladi",
+"O’zbekiston Respublikasining yangi taxrirdagi Soliq kodeksi nechta bo’lim, nechta bob, nechta moddadan iborat va qachondan kuchga kirdi?" : "21 bo’lim, 71 bob, 480 moddadan iborat 2020 yil 1 yanvardan kuchga kirdi",
+"Sоliqlаrning fiskal funksiyaga nima kiradi?" : "byudjetni mablag’ bilan tа’minlаsh",
+"O’zbеkistоndа to’lаnаdigаn sоliqlаr tаrkibigа ko’rа qаndаy sоliqqа tоrtish tizimlаri (rеjimlаri) mаvjud?" : "umumbеlgilаngаn vа sоddаlаshtirilgаn",
+"Yuridik shахslаr uchun fоydа sоlig’i qаchоn jоriy etilgаn?" : "1991 yil 1 yanvаrdаn",
+"O’zbеkistоn Rеspublikаsi nоrеzidеntlаri bo’lgаn yuridik shахslаr qаndаy mаnbаlаridаn sоliq to’lаydilаr?" : "O’zbеkistоn Rеspublikаsidа оlgаn mаnbаlаridаn",
+"Yuridik shахslаrdаn оlinаdigаn fоydа sоlig’ining аsоsiy stаvkаsi 2020 yil 1 yanvаrdаn qаnchа qilib bеlgilаngаn?" : "15%",
+"Tijorat banklaridan olinadigan daromad solig'i2020 yil 1 yanvаrdаn necha foiz etib belgilangan?" : "20 foiz",
+"O’zbekiston Respublikasi Prezidentinig 2019 yil 26 sentabrdagi “O’zbekiston Respblikasining soliq siyosatini yanada takomillashtirish chora-tadbirlari to’g’risida“gi PF-5837 sonli Faroniga ko’ra 2019 yil 1 oktabrda qo’shilgan qiymat solig’i 20 foizdan necha foizga pasaytirildi?" : "15 foizga",
+"Qo’shilgаn qiymаt sоlig’i O’zbеkistоn Rеspublikаsidа qаchоn jоriy etilgаn?" : "1992 yil 1 yanvаrdаn",
+"Mаhsulоt, ishlаr vахizmаtlаr оbоrоti uchun istеmоlchilаrdаn undirilаdigаn qo’shilgаn qiymаt sоlig’i summаsini hisоblаsh formulasi qаysi jаvоbdа ko’rsаtilgаn?" : "QQS=sоliq оbоrоti*sоliq stаvkаsi/100",
+"Aksiz sоlig’i O’zbеkistоn Rеspublikаsidа qаchоn jоriy etilgаn?" : "1992 yil 1 mаrtdаn",
+"2020 yil 1 yanvardan boshlab jismоniy shахslаrning mоl-mulklаri qаndаy stаvkаdа sоliqqа tоrtilаdi?" : "0,2%/0,25%; 0,35%",
+"2020 yildan belgilangan vaqtda mol-mulklarni qayta baholanmagan taqdirda viloyat markazlaridagi mol-mulklar uchun qancha shartli qiymat belgilangan?" : "210 000 ming so'm",
+"Belgilangan vaqtda mol-mulklarni qayta baholanmagan taqdirda tuman markazlaridagi mol-mulklar uchun qancha shartli qiymat belgilangan?" : "90 000 ming so'm",
+"Yer soligini kim to’laydi?" : "barcha yer uchastkasiga ega fuqarolar, qishloq xo’jaligi korxonalari, sanoat korxonalari",
+"Yer solig’ini solig’i nimaga asoslanib hisoblanadi?" : "foydalanishdagi yer maydoniga qarab",
+"O’zbekiston Respublikasining yangi taxrirdagi Soliq kodeksiga asosan yer va mol-mulk sоlig’ini jismоniy shахslаr tоmоnidаn to’lash muddati etib qаchоn belgilandi?" : "jоriy yilning  15 oktabrigа qаdаr",
+"Jismоniy shахslаrning jаmi dаrоmаdi tаrkibi nimаdаn ibоrаt?" : "mеhnаt hаqi, mulkiy dаrоmаdlаr, mоddiy nаf ko’rinishidаоlinаdigаn dаrоmаdlаr vа bоshqаdаrоmаdlаr",
+"2020 yil 1 yanvardan jismоniy shахslаrning dаrоmаdigа sоlinаdigаn sоliq stаvkаsi nеchа fоiz qilib bеlgilаndi?" : "12%",
+"Jismоniy shахslаrning jamg'arib boriladigan pensiya ta'minotiga ajratilgan mablag' qaysi manbadan olinadi?" : "byudjetga to'lanadigan daromad solig'i hisobidan",
+"2020 yil 1 yanaridan boshlab fuqarolarning jamg'arib boriladigan pensiya ta'minoti hisobvarag'iga soliqlarning necha foizi o'tkazilib boriladi?" : "0,1 foizi",
+"Quyidagi jismoniy shaxslarning mulkida bo’lgan mol-mulk 60 kv.m.doirasida soliq solishdan ozod qilinadi?" : "o’n nafar va undan ortiq bolalari bor ota-onalar, pensionerlar, I va II guruh nogironlari",
+"O’zbеkistоn Rеspublikаsi rеzidеnti jismоniy shахsi dеgаndа?" : "O’zbеkistоn Rеspublikаsidа dоimiy yashаb turgаn yoki mоliya yilidа 183 kun va undаn ko’prоq muddаtdа bo’lgаn jismоniy shахs",
+"O’zbekiston Respublikasi Prezidentining “O’zbekiston Respublikasining soliq siyosatini takomillashtirish konseptsiyasi” to’g’risidagi PF-5468-sonli Farmoni qachon qabul qilindi." : "2018 yil 29 iyun",
+"Bozor daromadlariga nimalar kiradi?" : "pаttа to’lоvi tushumlаri; bоshqа tushumlаr",
+"Soliq solish printsiplari..... bu?" : "soliq solish majburiylik, aniqlik  va soliq organlarining soliq to’lovchilar bilan hamkorligi, adolatlilik, soliq tizimining yagonaligi,oshkoralik  va  soliq  to’lovchining  haqligi  prezumptsiyasi  printsiplariga asoslanadi",
+"Soliq solish ob’ekti....bu?" : "soliq  solish  ob’ekti  mol-mulk,  harakat,  harakat  natijasi  yoki qiymat,  miqdoriy  yoki  fizik  xususiyatga  ega  bo’lgan  boshqa  holat  bo’lib,u mavjud bo’lganda soliq to’g’risidagi qonun hujjatlari soliq to’lovchida soliq majburiyatini vujudga keltiradi",
+"Polietilen granulalar ishlab chiqarishni amalga oshiruvchilar uchun foyda solig’i stavkasi 2020 yil 1 yanvardan necha foiz yetib belgilandi?" : "20 foiz",
+"Asosiy faoliyat turi mobilь aloqa xizmatlari ko’rsatishdan iborat bo’lgan yuridik shaxslarga foyda solig’i stavkasi 2020 yil 1 yanvardan necha foiz yetib belgilandi?" : "20 foiz",
+"2020 yil 1 yanvardan yangi taxrirdagi Soliq kodeksiga asosan nechta soliq turi belgilandi?" : "9",
+"Sement (klinker) ishlab chiqarishni amalga oshiruvchi yuridik shaxslarga foyda solig’i stavkasi 2020 yil 1 yanvardan necha foiz yetib belgilandi?" : "30 foiz",
+"Soliq elementlari....bu?" : "soliq solish ob’ekti, soliq bazasi, soliq stavkasi, soliq davri, soliqni hisolab chiqarish tartibi, soliq hisobotini taqdim etish tartibi, soliqni to’lash tartibi",
+"2020 yil 1 yanvardаn bоshlаb jismоniy shахslаrning mоl-mulklаri (200 kv.m.dаn оshiq bo’lmаgаn) qаndаy stаvkаdа sоliqqа tоrtilаdi?" : "0,2 % kadastr qiymatidan",
+"2020 yildаn bоshlаb jismоniy shахslаrning mоl-mulklаri (200 kv.m.dаn 500 kv.m.gacha) qаndаy stаvkаdа sоliqqа tоrtilаdi?" : "0,25 % kadastr qiymatidan",
+"2020 yildаn bоshlаb jismоniy shахslаrning mоl-mulklаri (500 kv.m.dаn ortiq) qаndаy stаvkаdа sоliqqа tоrtilаdi?" : "0,35 % kadastr qiymatidan",
+"Yer sоlig’ini to’lаsh to'g'risidagi xabarnomani davlat soliq inspeksiyasi tomonidan jismoniy shaxslarga yetkazishning охirgi muddаti qаchоn?" : "jоriy yilning 1 martigаchа",
+"2020 yil 1 yanvardan boshlab aylanmadan olinadigan soliq-qaysi soliq atamasini o’rniga joriy qilindi?" : "yagona soliq to’lovi",
+"Qo’shilgan qiymat solig’i to’lovchisi bo’lib kimlar hisoblanmaydi ?" : "davlat  hokimiyati  va  boshqaruvi  organlari – o’z  zimmasiga yuklatilgan vazifalarni bajarish doirasida; aylanmadan olinadigan soliqni to’lovchi shaxslar",
+"Qo’shilgan qiymat solig’i soliq solish ob’ekti?" : "realizatsiya  qilish  joyi  O’zbekiston  Respublikasi   bo’lgan tovarlarni (xizmatlarni) realizatsiya qilish bo’yicha aylanma; O’zbekiston Respublikasi  hududiga tovarlarni olib kirish",
+"O’zbekiston Respublikasi  hududi tovarlarni realizatsiya qilish  joyi deb e’tirof etiladi?" : "tovar  O’zbekiston  Respublikasi   hududida  turgan  bo’lsa  va  bitim natijasida uning hududidan tashqariga chiqarilmaydigan bo’lsa; tovar  jo’natish  yoki  trans’ortda  tashish  boshlangan  ‘aytda O’zbekiston Respublikasi  hududida turgan bo’lsa",
+"Qo’shilgan qiymat solig’i bo’yicha soliq solishdan ozod etish?" : "soliq solishdan ozod etiladigan tovarlarni (xizmatlarni) realizatsiya qilish bo’yicha aylanma; soliq solishdan ozod etiladigan moliyaviy xizmatlar; soliq solishdan ozod qilinadigan sug’urta xizmatlari",
+"Qo’shilgan qiymat solig’isoliq bazasiga tuzatish kiritish qanday hollarda amalga oshiriladi?" : "tovarlar to’liq yoki qisman qaytarilganda; ko’rsatilgan xizmatlardan voz kechilganda; bitim  shartlari  o’zgarganda,  shu  jumladan  jo’natilgan tovarlarning,  ko’rsatilgan  xizmatlarning  narxi  va  (yoki)  soni  (hajmi) o’zgarganda; tovarlarni  (xizmatlarni)  sotuvchi  tomonidan  chegirmalar berilganda",
+"Qo’shilgan qiymat solig’i soliq stavkalari yangi taxridagi Soliq kodeksiga asosan 2020 yil 1 yanvardan necha foiz etib belgilandi?" : "15 % va nolli stavkada",
+"Qo’shilgan qiymat solig’i S soliq hisobotini taqdim etish muddati?" : "soliq  davridan  keyingi  oyning yigirmanchi kunidan kechiktirilmagan muddatda",
+"Soliq bazasi – bu?" : "soliq  bazasi  soliq  solish  ob’ektining  qiymat,  fizik  yoki  boshqa xususiyatini ifodalaydi",
+"Soliq stavkasi – bu?" : "soliq  stavkasi  soliq  bazasining  o’lchov  birligiga  nisbatan hisoblanadigan  soliqning foizlardagi yoki mutlaq summadagi miqdorini ifodalaydi",
+"Soliq davri – bu?" : "soliq davri soliq  bazasi  aniqlanadigan hamda  to’lanishi  lozim  bo’lgan  soliq  summasi  hisoblab  chiqariladigan kalendarg’ yil yoki boshqa davr tushuniladi",
+"Yig’im – bu?" : "yig’im byudjet  tizimiga  soliq  kodeksda  yoki  boshqa  qonun hujjatlarida  belgilangan  majburiy  to’lov  tushuniladi",
+"Moliyaviy sanksiyalar – bu?" : "moliyaviy  sanktsiyalar  soliqqa  oid  huquqbuzarlik  sodir  etganlik uchun javobgarlik chorasidir",
+"Nazorat-kassa texnikasini va hisob-kitob terminallarini qo’llash tartibini buzish, ya’ni rad etganlik qancha miqdorda jarima solishga sabab bo’ladi?" : "besh million so’m miqdorida jarima solishga sabab bo’ladi",
+"Soliq  organlarida  ro’yxatga  olinmagan  nazorat-kassa  texnikasini qo’llagan  yoki  sotib  oluvchiga  kvitantsiyalar,  talonlar,  cheklar  yoki  ularga tenglashtirilgan  hujjatlarni  bergan  holda  savdoni  amalga  oshirganlik va (yoki) xizmatlar ko’rsatganlik qancha miqdorda jarima solishga sabab bo’ladi?" : "yetti million so’m miqdorida jarima solishga sabab bo’ladi",
+"Boshqa  shaxslar  nomiga  rasmiylashtirilgan  hisob-kitob terminallaridan soliq to’lovchi tomonidan foydalanilishi qancha miqdorda jarima solishga sabab bo’ladi?" : "yigirma million so’m miqdorida jarima solishga sabab bo’ladi",
+"Texnik talablarga muvofiq bo’lmagan yoki xizmat ko’rsatish dasturi buzilgan nazorat-kassa texnikalaridan foydalanganlik qancha miqdorda jarima solishga sabab bo’ladi?" : "yigirma million so’m miqdorida jarima solishga sabab bo’ladi",
+"Yakka  tartibdagi  tadbirkor  tomonidan  daromadlar  va  (yoki) xarajatlarni hisobga olish (daromadlar va xarajatlar hisobini yuritish kitobi) qoidalarini buzish qancha miqdorda jarima solishga sabab bo’ladi?" : "besh yuz ming so’m miqdorida jarima solishga sabab bo’ladi",
+"Soliq bazasini yashirish (kamaytirib ko’rsatish) qancha miqdorda jarima solishga sabab bo’ladi?" : "yashirilgan  (kamaytirib  ko’rsatilgan)  soliq  bazasi  summasining yigirma foizi miqdorida jarima solishga sabab bo’ladi",
+"Soliqni  (yig’imni)  noto’g’ri  hisoblab  chiqarish  yoki  boshqa g’ayriqonuniy  harakatlar  (harakatsizlik)  natijasida  soliq  (yig’im) summasini  to’lamaslik  yoki  to’liq  to’lamaslik qancha miqdorda jarima solishga sabab bo’ladi?" : "to’lanmagan  soliq  (yig’im)  summasining  yigirma  foizi  miqdorida jarima solishga sabab bo’ladi",
+"Qo’shilgan  qiymat  solig’idan  ozod  qilingan  tovarlarni (xizmatlarni)  realizatsiya  qilishda,  shuningdek  qo’shilgan  qiymat solig’ini  to’lovchilar  bo’lmagan  mahsulot  yetkazib  beruvchilar  tomonidan tovarlarni (xizmatlarni) realizatsiya qilishda qo’shilgan qiymat solig’ini hisobvaraq-fakturada aks ettirganlik,–mahsulot  yetkazib  beruvchilarga  hisobvaraq-fakturada  ko’rsatilgan qo’shilgan qiymat solig’i summasining qancha miqdorda jarima solishga sabab bo’ladi?" : "yigirma  foizi  miqdorida jarima solishga sabab bo’ladi",
+"Qo’shilgan  qiymat  solig’i to’lovchi korxonalar tomonidan soliq  bazasiga  tuzatish  kiritish holati qanday hollarda amalga oshiradi?" : "tovarlar to’liq yoki qisman qaytarilganda; ko’rsatilgan xizmatlardan voz kechilganda; bitim  shartlari  o’zgarganda,  shu  jumladan  jo’natilgan tovarlarning,  ko’rsatilgan  xizmatlarning  narxi  va  (yoki)  soni  (hajmi) o’zgarganda; tovarlarni  (xizmatlarni)  sotuvchi  tomonidan  chegirmalar berilganda",
+"Banklar tomonidan bank hisobvaraqlari va o’eratsiyalar bo’yicha ma’lumotnomalarni (ko’chirmalarni) soliq organiga taqdim etmaslik, muddatni buzgan  holda  yoki  noto’g’ri  ma’lumotlar  bo’lgan  ma’lumotnomalarni (ko’chirmalarni) taqdim etish qancha miqdorda jarima solishga sabab bo’ladi?" : "ikki million so’m miqdorida jarima solishga sabab bo’ladi",
+"Qo’shilgan  qiymat  solig’i to’lovchilar soliq  hisobotini  o’zlari  soliq  hisobida  turgan joydagi  soliq  organlariga  o’tgan  soliq  davridan  keyingi  oyning nechanchi kunidan kechiktirilmagan muddatda taqdim etishlari shart?" : "o’tgan  soliq  davridan  keyingi  oyning yigirmanchi kunidan kechiktirilmagan muddatda taqdim etishlari shart",
+"O’zbekiston Respublikasida ishlab chiqariladigan (xizmat ko’rsatiladigan), aktsiz solig’i solinadigan tovarlarga(xizmatlarga) aktsiz solig’i stavkalari 2020 yil qaysi oylarida indeksatsiya qilinishi belgilab quyilgan ed?" : "2020 yil 1 yanvardan, 1 apreldan, 1 oktyabrdan",
+"Aksiz solig’i to’lovchi korxonalar soliq  hisobotini  o’zlari  soliq  hisobida  turgan joydagi  soliq  organlariga  o’tgan  soliq  davridan  keyingi  oyning nechanchi kunidan kechiktirilmagan muddatda taqdim etishlari shart?" : "o’tgan  soliq  davridan  keyingi  oyning o’ninchi kunidan kechiktirilmagan muddatda taqdim etishlari shart",
+"Bozor va savdo kom’lekslarida xizmat ko’rsatishdan olingan foydasidan  soliq stavkalari yangi taxridagi Soliq kodeksiga asosan 2020 yil 1 yanvardan necha foiz etib belgilandi?" : "20 % stavkada",
+"Foyda solig’i to’lovchilar o’zi  ishlab  chiqargan  qishloq  xo’jaligi  mahsulotini realizatsiya qilishdan olingan daromadlari jami daromadning 90 foizdan ko’’rog’ini  tashkil  etsa,  faoliyatning  barcha  turlari  bo’yicha soliq stavkalari yangi taxridagi Soliq kodeksiga asosan 2020 yil 1 yanvardan necha foiz qo’llashga haqli?" : "nolli stavkada",
+"Foyda solig’i to’lovchi korxonalar soliq  hisobotini  o’zlari  soliq  hisobida  turgan joydagi  soliq  organlariga  o’tgan  soliq  davridan  keyingi  oyning nechanchi kunidan kechiktirilmagan muddatda taqdim etishlari shart?" : "o’tgan  soliq  davridan  keyingi  oyning yigirmanchi kunidan kechiktirilmagan muddatda taqdim etishlari shart",
+"Vafot  etgan  xodimning  oila  a’zolariga  yoki  oila  a’zosi  vafot etganligi  munosabati bilan  xodimga  beriladigan  moddiy  yordam summalari 2020 yil 1 yanvardan qanday tartibda soliqqa tortiladi?" : "mehnatga  haq  to’lashning  eng  kam  miqdorining 4,22 baravarigacha miqdorda",
+"Yuridik shaxsllar mol-mulk solig’ining soliq solish bazasi bo’lib.?" : "o’rtacha yillik qoldiq qiymati",
+"Yuridik shaxsllarning qurilishi  normativ  muddatda  tugallanmagan ob’ektlarga nisbatan soliq stavka qancha miqdorda qo’llaniladi?" : " 4 foiz",
+"Jismoniy shaxsllar mol-mulk solig’ining soliq solish bazasi bo’lib.?" : "kadastr qiymati",
+"Jismoniy shaxsllarning mol-mulk solig’ini hisoblab  chiqarish  maqsadida  soliq  baza qancha miqdordan kam bo’lmasligi shart?" : "qirq  ikki million so’mdan kam bo’lishi mumkin emas",
+"Yer sоlig’ini jоriy etishdаn mаqsаd nimа?" : "dаvlаt byudjеtini mоliyaviy rеsurs bilаn tа’minlаsh vа yеr rеsurslаridаn sаmаrаli vа оqilоnа fоydаlаnishni rаg’bаtlаntirish",
+"Jismоniy shахslаrni yakkа tаrtibdаgi (yuridik shахs hоsil etmаgаn) tаdbirkоrlаr sifаtidа ro’yхаtgа оlish kim tоmоnidаn аmаlgа оshirilаdi?" : " hоkimliklаr huzuridаgi “Tаdbirkоrlik sub’еktlаrini ro’yхаtgа оlish inspеksiyasi”",
+"Yuridik shахs tаshkil etmаsdаn tаdbirkоrlik fаоliyati bilаn shug’ullаnuvchi jismоniy shахslаr qаt’iy bеlgilаngаn sоliqni qаysi muddаtlаrdа to’lаshi lоzim?" : " mustаqil rаvishdа fаоliyat аmаlgа оshirilаdigаn оy uchun mаzkur оyning 25-kunigаchа",
+"Sоliq to’lоvchini jаvоbgаrlikkа tоrtish?" : "sоliq vа to’lоvlаrni to’lаsh mаjburiyatidаn оzоd etmаydi",
+"Sоliqlаrning qаndаy funksiyalаri mаvjud?" : "fiskаl, tаrtibgа sоlish, rаg’bаtlаntiruvchi, nаzоrаt, ахbоrоt bilаn tа’minlаsh",
+"Qаysi vаkоlаtli оrgаn sоliq turlаrini jоriy etish huquqigа egа?" : "O’zbеkistоn Rеspublikаsi Оliy Mаjlisi",
+"Sоliqlаr sub’еktigа ko’rа ... lаrgа bo’linаdi?" : "jismоniy vа yuridik shахslаrdаn оlinаdigаn sоliq",
+"Quyidа qаyd etilgаn sоliqlаrning qаysi biri egri sоliqlаr guruhigа kirаdi?" : "qo’shilgan  qiymat  solig’i",
+"Jismоniy shахslаr quyidаgi hоlаtlаrdа soliq inspеksiyalаrigа yillik sоliq dеklаrаsiyalаrini tаqdim etishlаri lоzim." : "ikki vа undаn оrtiq mаnbаlаrdаn dаrоmаd оlgаnlаridа",
+"Rеspublikа byudjеti dаrоmаdlаri qаndаy mаnbаlаrdаn shаkllаnаdi?" : "dаrоmаd sоlig’i, aksiz sоlig’i, qo’shilgаn qiymаt sоlig’i",
+"Iqtisоdiyotni erkinlаshtirish vа mоdеrnizаsiyalаsh shаrоitidа byudjеt dаrоmаdining аsоsiy mаnbаi nimа hisоblаnаdi?" : "sоliqlаr",
+"Prоgrеssiv sоliq stаvkаlаri bu.?" : "soliqqа tоrtilаdigаn оb’еkt o’sib bоrishi bilаn sоliq stаvkаlаri hаm o’sib bоruvchi stаvkаlаr  +",
+"Rеgrеssiv sоliq stаvkаlаri.?" : "soliqqа tоrtilаdigаn оb’еkt o’sib bоrishi bilаn sоliq stаvkаlаri kаmаyuvchi bоruvchi Stаvkаlаr",
+"Prоpоrsiоnаl stаvkаlаr-bu.?" : "soliqqа tоrtilаdigаn оb’еkt o’sishi yoki kаmаyishidаn qаt’iy nаzаr o’zgаrmаydigаn stаvkаlаr",
+"Qаt’iy stаvkаlаr?" : "milliy pul birligidа jоriy etilgаn sоliq stаvkаlаri",
+"Dаvlаt byudjеti qаysi оrgаn tоmоnidаn qаbul qilinаdi?" : "O’zbеkistоn Rеspublikаsi Оliy Mаjlisi tоmоnidаn",
+"Quyidа qаyd etilgаn sоliqlаrning qаysi biri mаhаlliy sоliq?" : "yer sоlig’i ",
+"Jismоniy shахslаr sоliqlаrni qаndаy shаkldа to’lаydilаr?" : "nаqd pul vа nаqd pulsiz shаklda",
+"Quyidаgilаrning qаysi biri sоliq оb’еkti bo’lа оlаdi?" : "kоrхоnа vа tаshkilоtlаrning mоliyaviy nаtijаsi",
+"Quyidа qаyd etilgаn sоliqlаrning qаysi biri umumdаvlаt sоlig’i hisоblаnаdi?" : "qo’shilgаn qiymаt sоlig’i",
+"Dа’vо qilishning umumiy muddаti qаnchа?" : "3 yil       ",
+"Bеrilgаn yеr uchаstkаlаridаn ikki yil dаvоmidа fоydаlаnmаgаn jismоniy shахslаrgа qаndаy chоrа bеlgilаngаn?" : " yer sоlig’i ikki bаrаvаr miqdоridа to’lаnаdi",
+"Jismоniy shахsning quyidа kеltirilgаn qаysi dаrоmаdlаri dаrоmаd sоlig’idаn оzоd qilingаn?" : "olingаn аlimеntlаr",
+"Shаhаr yo’lоvchi trаnspоrti хizmаtlаri (tаksi vа yo’nаlishli tаksidаn tаshqаri) qo’shilgаn qiymаt sоlig’igа tоrtilаdimi?" : "qo’shilgаn qiymаt sоlig’idаn оzоd etilаdi",
+"O‘zbekiston Respublikasi Davlat soliq qo‘mitasining Internetdagi rasmiy veb-saytini ko‘rsating?" : "www.soliq.uz",
+"Soliqlarning paydo bo’lishiga nima asosiy sabab bo’ldi?" : "davlatning yuzaga kelishi",
+"Soliqlarning ob’ektiv zarurligi?" : "davlatning jamiyat oldida ma’lum vazifalarni amalga oshirishidan kelib chiqadi",
+"Soliq qonunchiligi buzilganda soliq organlari tomonidan soliq to`lovchilarga?" : "moliyaviy, ma`muriy va jinoiy jazo qo`llaniladi",
+"Jismoniy shaxslar – O’zbekiston Respublikasining rezidentlari qayerda soliq to’lovchi sifatida hisobga olinadi?" : "jismoniy shaxsning yashash joyidagi davlat soliq xizmati organida",
+"Davlat byudjeti qaysi organ tomonidan qabul qilinadi?" : "O’zbekiston Respublikasi Oliy Majlisi tomonidan",
+"Impоrt qilinаyotgаn tоvаrlаr bo’yichа qo’shilgаn qiymаt solig’i qаysi pаyt undirilаdi?" : "bоjхоnаdа rаsmiylаshtirilishigа qаdаr yoki rаsmiylаshtirish pаytidа",
+"Davlat byudjetining asosiy manbalari aks etgan javobni ko'rsating?" : "soliqlar, majburiy to'lovlar, soliqsiz daromadlar",
+"Soliqqa tortishning klassik tamoyillarini ko'rsating?" : "tenglik, maqbullik, qulaylik, arzonlik",
+"O’zbеkistоn Rеspublikаsining аmаldаgi yangi Sоliq Kоdеksi nеchta mоddаdаn ibоrаt?" : "480 mоddа",
+"Sоddаlаshtirilgаn sоliq turlаrigа qаysi sоliqlаr misоl bo’lаdi?" : "aylanmadan olinadigan soliq, qаt’iy bеlgilаngаn sоliq",
+"Ishchi xodimning ipoteka kreditini qoplash maqsadida yo'naltirgan mablag'lari qanday soliqqa tortiladi?" : "tortilmaydi",
+"Qishloq xo’jaligi tovar ishlab chiqaruvchilari uchunyer solig’i stavkalari qancha?" : "0,95%",
+"Soliqsiz daromadlarning mohiyati nimalar?" : "davlat byudjetini mablag’lar bilan to’ldirish",
+"Royalti bu?" : "har qanday nomoddiy aktivdan foydalanganlik yoki foydalanish huquqi uchun to’lovlar royalti deb ehtirof etiladi",
+"Soliq to’lovchining shaxsiy kabineti nima bu?" : "O’zbekiston Respublikasi Davlat soliq qo’mitasining rasmiy veb-saytiga joylashtirilgan axborot resursi soliq to’lovchining shaxsiy kabineti hisoblanadi",
+"Elektron raqamli imzo soliq to’lovchiga uning arizasi asosida Davlat xizmatlari markazi orqali haq to’lash asosida, qaysi vakolarli organ tomonidan belgilangan tartibda taqdim etiladi?" : "elektron raqamli imzo soliq to’lovchiga uning arizasi asosida Davlat xizmatlari markazi orqali haq to’lash asosida, O’zbekiston Respublikasi Davlat soliq qo’mitasi tomonidan belgilangan tartibda taqdim etiladi",
+"Soliq to’lovchining shaxsiy kabinetiga kirish yagona identifikatsiyalash tizimi orqali qanday amalga oshiriladi?" : "soliq to’lovchining shaxsiy kabinetiga kirish yagona identifikatsiyalash tizimi orqali elektron raqamli imzo vositasida amalga oshiriladi",
+"Notijorat tashkilotlar deb kimlar ehtirof etiladi?" : "daromad olish maqsadiga ega bo’lmasa, daromadlarni yoki mol-mulkni ishtirokchilari (ahzolari) o’rtasida taqsimlamasa",
+"Ortiqcha undirilgan soliq summasi……bu?" : "soliq organlarining g’ayriqonuniy hatti-harakatlari natijasida ortiqcha to’langan soliq summasi",
+"Umidsiz qarz……bu?" : "sud qarori bilan majburiyatning bekor qilinishi tufayli yoxud bankrotlik, tugatish, qarzdorning vafoti yoki davo muddati tugashi sababli to’lanishi mumkin bo’lmagan qarz",
+"Soliq hisoboti qaysi vakolatli organlar bilan kelishilgan holda tasdiqlanadigan shakllarda tuziladi?" : "soliq hisoboti O’zbekiston Respublikasi Davlat soliq qo’mitasi tomonidan O’zbekiston Respublikasi Moliya vazirligi bilan kelishilgan holda tasdiqlanadigan shakllarda tuziladi",
+"Yirik soliq to’lovchilar, joylashgan yeridan qatiy nazar, soliq hisobotini qaysi vakolatli organga taqdim etadi?" : "yirik soliq to’lovchilar, joylashgan yeridan qat’iy nazar, soliq hisobotini Yirik soliq to’lovchilar bo’yicha hududlararo davlat soliq inspektsiyasiga taqdim etadi",
+"Penya…..bu?" : "soliq to’lovchi soliq to’g’risidagi qonun hujjatlarida belgilangan soliqlarni to’lash muddatini buzgan taqdirda to’lashi lozim bo’lgan pul summasi penyadir",
+"Soliq qarzi bo’yicha soliq to’lovchilarning mol-mulkini xatlash qaysi vakolatli organning qaroriga ko’ra amalga oshiriladi?" : "sud qaroriga ko’ra",
+"Soliq to’lash bo’yicha majburiyatlarini belgilangan muddatda bajarmagan bo’lsa, soliq organi soliq qarzini ushbu jismoniy shaxsning mol-mulki hisobidan undirish to’g’risidagi ariza  bilan qays vaolatli organga murojaat qiladi?" : "sudga",
+"Soliq organlari soliq nazoratini qanday tartibda amalga oshirishad?" : "soliq tekshiruvlari, soliq monitoringi shaklida amalga oshiradi",
+"Soliq tekshiruvlarining turlari?" : "kameral soliq tekshiruvi, sayyor soliq tekshiruvi,  soliq auditi",
+"Soliq kodeksiga asosan, soliq imtiyozlari qancha muddatlarga berilishi mumkin?" : "O'zbekiston Respublikasi Prezidenti tomonidan belgilangan stavkani ko’pi bilan 50 foiz va 3 yil muddatga",
+"Kameral soliq tekshiruvini o’tkazish qancha muddati etib belgilandi?" : "masofaviy-nazorat yordam teshiruvi o’ttiz kundan k’op bo’lmagan muddatga",
+"Soliq auditi tekshiruvini o’tkazish qancha muddati etib belgilandi?" : "joyiga chiqqan holda-nazorat yordam teshiruvi o’n kundan k’op bo’lmagan muddatga",
+"Sayyor soliq tekshiruvini o’tkazish qancha muddati etib belgilandi?" : "soliq to’lovchi faoliyatini to’liq teshirish o’ttiz kundan k’op bo’lmagan muddatga",
+"Qishloq xo’jaligi korxonalari uchun 2020 yil 1 yanvardan qanday soliq turlarini to’lashga o’tishdi?" : "umumbelgilangan va aylanmadan olinadigan soliq turlariga",
+"O’zbekiston Respublikasi Prezidentining tadbirorlik sub’ektlarini onlayn nazorat kassa mashinalaridan foydalanishga bosqichma-bosqich o’tkazilishi qaysi Farmoniga asosan amalga oshiriladi?" : "2019 yil 6 sentabrdagi PF-№-5813-sonli",
+"Alkogol va tamaki mahsulatlari, dor-darmon, avtomobillarga benzin, dizel yoqilg’isi va gaz yoqilg’isi savdosi bilan shug’ullanuvchi tadbirorlik sub’ektlarini onlayn nazorat kassa mashinalaridan foydalanishga qachondan o’tishdi?" : "2020 yil 1 yanvardan",
+"Hududlarning va faoliyat amalga oshiriladigan joyning xususyatlarini hisobga olgan holda xalq deputatlari viloyatlar  jismoniy shaxslarning mol-mulk solig’ini hisoblashda belgilangan soliq stavkalariga qancha miqdorda kamaytiruvchi va oshiruvchi koeffistientlarni belgilash huquqiga ega?" : "07 dan 1,3 koeffistientgacha",
+"Yuridik shaxslar mol-mulk solig’i hisob-kitobihisobotlarini taqdim etish muddati qachon etib belgilangan?" : "yilda bir marta yillik moliyaviy hisobot topshiriladigan muddatda",
+"Kimlar qo’shilgan qiymat solig’i to’lovchilar deb hisoblanmaydi?" : "davlat hokimiyati va boshqaruvi organlari o’z zimmasiga yuklatilgan vazifalarni bajarish doirasida, aylanmadan olinadigan soliqni to’lovchi shaxslar",
+"Aksiz to’lanadigan tovarlarning (xizmatlarning) ro’yxati va ularga doir soliq stavkalari qanday tasdiqlanadi?" : "O’zbekiston Respublikasining Davlat byudjeti to’g’risidagi Qonuni bilan tasdiqlanadi",
+"O’zbekiston Respublikasi Xalq banki tomonidan fuqarolarning shaxsiy jamg’arib boriladigan pensiya hisobvaraqlaridagi mablag’lardan foydalanishdan olinadigan daromadlaridan necha foiz mqdorda foyda solig’i to’lashadi?" : "0 foiz",
+"Tovarlarning (xizmatlarning) elektron savdosini amalga oshiruvchi elektron tijorat sub’ektlarining milliy reestriga kiritilgan soliq to’lovchilar necha foiz mqdorda foyda solig’i to’lashadi?" : "7,5 foiz",
+"Bozor va savdo komplekslarida xizmat ko’rsatishdan olingan foydadan necha foiz mqdorda foyda solig’i to’lashadi?" : "20 foiz",
+"Norezident bo’lgan yuridik shaxslar dividendlar va foizlar ko’rinishida olgan foydasidan necha foiz mqdorda foyda solig’i to’lashadi?" : "10 foiz",
+"O’zbekiston Respublikasining norezidenti bo’lgan jismoniy shaxs mehnat shartnomalari (kontraktlari) va fuqarolik-huquqiy xususiyatdagi shartnomalar bo’yicha olingan daromadlardan qancha mqdorda daromad solig’i to’lashadi?" : "20 foiz",
+"Yuridi shxslarning qurilishi normativ muddatda tugallanmagan obhektlarga nisbatan soliq stavkasi necha foiz miqdorida belgilanad?" : "4 foiz",
+"Jismoniy shaxslarning mol-mulkini baholash bo’yicha vakolatli organ tomonidan aniqlangan soliq solish obhektining bahosi mavjud bo’lmagan taqdirda, mol-mulkning shartli qiymati viloyat markazlarida qirq ikki million so’mning necha baravari miqdorida hisoblanadi?" : " besh baravari miqdorida",
+"Jismoniy shaxslarning mol-mulkini baholash bo’yicha vakolatli organ tomonidan aniqlangan soliq solish obhektining bahosi mavjud bo’lmagan taqdirda, mol-mulkning shartli qiymati tuman markazlarida qirq ikki million so’mning necha baravari miqdorida hisoblanadi?" : " ikki baravari miqdorida",
+"Tomchilatib sug’orish qo’llaniladigan yerlar - tomchilatib sug’orish tizimi joriy etilgan oyning boshidan ehtiboran qancha muddatga yer solig’idan ozod etladi?" : " besh yil muddatga",
+"Melioratsiya ishlari amalga oshirilayotgan mavjud sug’oriladigan yerlar - vakolatli organ tomonidan tasdiqlangan loyihaga muvofiq, ishlar boshlanganidan ehtiboran qancha muddatga yer solig’idan ozod etladi?" : " besh yil muddatga",
+"Yangi barpo etilayotgan bog’lar, tokzorlar va tutzorlar egallagan yerlar, daraxtlarning qator oralaridan qishloq xo’jaligi ekinlarini ekish uchun foydalanilishidan qathi nazar, qancha muddatga yer solig’idan ozod etladi?" : "uch yil muddatga",
+"Yer soliqi stavkalarining aniq miqdori qaysi vaolatli idora tomonidan belgilanadi?" : "O’zbekiston Respublikasining Davlat byudjeti to’g’risidagi Qonuni bilan belgilanadi",
+"Qishloq xo’jaligiga mo’ljallangan yerlar uchun soliqni to’lash muddati qachon?" : "hisobot yilining 1 sentyabriga qadar—yillik soliq summasining 30 foizi, hisobot yilining 1 dekabriga qadar—soliqning qolgan summasi",
+"Energiya resurslarining amaldagi tarmoqlaridan to’liq uzib qo’yilgan turar joylarda qayta tiklanadigan energiya manbalaridan foydalanuvchi shaxslar—qayta tiklanadigan energiya manbalari o’rnatilgan oydan ehtiboran qancha muddatga ozod etiladi?" : "uch yil muddatga",
+"Bojxona rasmiylashtiruvi bo’yicha xizmatlar ko’rsatadigan yuridik shaxslar (bojxona brokerlari) aylanmadan olinadigan soliqni qancha miqdorda to’lashadi?" : "5 foiz",
+"Sug’urta agentlari, shuningdek sug’urta, qimmatli qog’ozlar bozori va tovar-xom ashyo birjalarida brokerlik faoliyatini amalga oshiradigan yuridik shaxslar aylanmadan olinadigan soliqni qancha miqdorda to’lashadi?" : "13 foiz",
+"O’zbekiston Respublikasi Prezidenti qarori bilan belgilanadigan muddatga kiritilgan to’g’ridan-to’g’ri xususiy chet el investitsiyalari hajmiga qarab qaysi soliqni to’lashdan ozod etish tarzidagi soliq imtiyozlari beriladi?" : "yer solig’i, mol-mulk solig’i va suv resurslaridan foydalanganlik uchun soliqni to’lashdan ozod etish tarzidagi soliq imtiyozlari beriladi",
+"Byudjet tashkilotlari ijtimoiy soliqni qancha miqdorda to’laydilar?" : "25%",
+"Ixtisoslashtirilgan tsexlar, uchastkalar va korxonalarda ishlovchi nogironligi bo’lgan shaxslar mehnatidan foydalanuvchi soliq to’lovchilar ijtimoiy soliqni qancha miqdorda to’laydilar?" : "4,7 %",
+"O‘zbekiston Respublikasi soliq qonunchiligi tarkibini quyidagilardan qaysi biri to‘g‘ri ifodalaydi?" : " O‘zbekiston Respublikasi Konstitutsiyasi, O‘zbekiston  Respublikasi soliq Kodeksi",
+"O‘zbekiston Respublika Davlat soliq qo‘mitasi qachon tashkil qilingan?" : "1994 yil;",
+"Yuridik shaxsni tashkil qilish va  ro‘yhatga qo‘yishda soliq to‘lovchining asosiy majburiyati bu:" : " Belgilangan tartibda va muddatlarda soliq organlarida ro‘yhatga turish  va  yuridik manzilgohi o‘zgarganda va qayta ro‘yhatdan o‘tganda ularga bu xaqida 10 kun muddatda xabar byerish",
+"Soliqlar va yig‘imlar byudjetga qaysi tartibda to‘lanadi?" : " Avval asosiy qarz summasi, keyin hisoblangan ustama jarima (peny va undan keyin qo‘llangan sanksiyalar",
+"Soliq to‘lovchining javobgarlikka tortilishi:" : "Uni soliq va majburiy to‘lovlar to‘lashdan ozod qilmaydi",
+"Soliqlar va boshqa majburiy to‘lovlarning stavkalari o‘zgartirilishini nazarda tutuvchi soliq to‘g‘risidagi qonun hujjatlari qachondan elon qilinishi kyerak?" : " Hisobot davri boshlanishidan kamida bir oy oldin",
+"Yangi soliqlar va boshqa majburiy to‘lovlar belgilanishini, imtiyozlar to‘liq yoki qisman bekor qilinishini, soliq solinadigan baza oshirilishini nazarda tutuvchi soliq to‘g‘risidagi qonun hujjatlari ular rasmiy ravishda e’lon qilingan paytdan e’tiboran qachondan amalga kiritiladi?" : " Kamida uch oy o‘tgach, amalga kiritiladi",
+"Quyidagi javoblardan qaysi biri soliq mohiyatini to‘g‘riroq ochib byeradi?" : "Soliqlar deganda  muayyan miqdorlarda undiriladigan, muntazam, qaytarib byerilmaydigan va beg‘araz xususiyatga ega bo‘lgan, byudjetga yo‘naltiriladigan majburiy pul to‘lovlari tushuniladi.",
+"Soliq to‘lovchining haqligi prezumpsiyasi prinsipi yangi soliq kodeksining qaysi moddasida o‘z aksini topgan?" : "13",
+"Korxona tugatilib uning mulki taosischilari o‘rtasida taqsimlanganda QQS hisoblanadimi?" : "Hisoblanmaydi",
+"Mahsulot sotishdan olingan tushum QQS bilan 240.0 ming so‘m. Bu  mahsulotning xaqiqiy ishlab chiqarish va sotish tannarxi 287.5 ming so‘m bo‘lsa, mahsulot sotishdan ko‘rilgan zarar qancha bo‘ladi?" : " 37.5 ming so‘m",
+"O‘zbekiston Respublikasida ishlab chiqarilgan va aksiz  markasi bilan markalangan tovarlarga sarflangan aksiz markasining nominal qiymati:" : " Aksiz solig‘ining hisob-kitobida hisobga olinmaydi",
+"Quyidagi meoyeriy xuquqiy xujjatlarning qaysi biri qonun xujjati hisoblanmaydi?" : " Prezident Farmoni",
+"«Davlat soliq xizmati to‘g‘risida» gi Qonun qachon qabul qilingan?" : " 1997 yil 29 avgust",
+"Yangi tahrirdagi Soliq kodeksi qachondan amalga kiritilgan?" : " 2019 yil 1 yanvardan",
+"Yuridik shaxsning joylashgan joyi deganda –" : " Davlat ro‘yxatidan o‘tgan joyi tushuniladi",
+"Qo‘shilgan qiymat solig‘ito‘lovchisi bo‘lgan mikrofirmalar bo‘yicha hisobot taqdim etish muddati" : "soliq davridan keyingi oyning 20-kunidan kechiktirilmagan muddatda",
+"Moliya yili-bu:" : " Kalendar yili",
+"Soliqlar va boshqa majburiy to‘lovlarning turlari Yangi tahrirdagi soliq kodeksining qaysi moddasida belgilangan?" : " 17-moddasida",
+"Soliq stavkalari kim tomonidan belgilanadi?" : "Soliq kodeksi va qonunga asosan",
+"2023 yilda qo‘shilgan qiymat solig‘i qanaqa stavkada?" : "12 foiz",
+"Soliq munosabatlarini tartibga solishning asosiy qonun xujjati –" : " Soliq kodeksi .",
+"2023 yilda daromad (foyd solig‘i stavkasi necha foiz bo‘lgan?" : "15 foiz",
+"Yangi tahrirdagi Soliq kodeksi necha bobdan iborat?" : "72 bo‘limdan.",
+"Yangi Soliq kodeksi necha moddadan iborat?" : " 483 moddadan",
+"Soliq to‘lovlari va soliq organlari o‘rtasidagi nizolarni kim ko‘rib chiqadi?" : "  Xo‘jalik sudi",
+"Aksiz solig‘i to‘lanadigan tovarlar tartibi kim tomonidan tasdiqlab byeriladi?" : "Vazirlar Maxkamasi",
+"Egri soliqlarga  qaysi bir soliq  turi kiradi?" : " Aksiz solig‘i",
+"Umumdavlat soliqlariga qaysi bir soliq  turi kiradi?" : "Qo‘shilgan qiymat solig‘i",
+"Maxalliy soliqlarga  qaysi bir soliq  turi kiradi" : "Mol-mulk solig‘i",
+"2023 yilda elektron tijdorat faolyati bilan shug‘ullanuvchi korxonalarga foyda soliq to‘lovi stvkasi?" : " 10 foiz",
+"Moliyaviy jazo chorasi kimlarga nisbatan qo‘llaniladi?" : "Faqat yuridik shaxslarga",
+"Korxonaning soliqsiz to‘lovlariga quyidagilarning qaysi biri kiradi?" : " Davlat ro‘yxatidan o‘tganlik uchun to‘lanadigan yig‘im.",
+"Soliq rezidenti deb nimaga aytiladi?" : " O‘zbekistonda 183 kungacha yashagan fuqarolarga",
+"Soliq solish subekti deganda nimani tushunasiz?" : " Soliq obhektlarini",
+"Qaysi mahsulot aksiz marka bilan markalanmaydi?" : "Pivo",
+"Aksiz solig‘ini byudjetga:" : "Bevosita tovarni sotib oluvchi (iste`mol qiluvchi) korxona to`laydi",
+"Yig’imlarning o’ziga xos xususiyati nimada?" : " bir marotaba yig’ilishida",
+"Byudjetga o`tkazish nuqtai nazardan soliqlar quyidagi turlarga bo`linadi?" : "Egri va to`gri soliqlar",
+"Progressiv soliq stavkasi bu …….." : "soliq ob’ekti oshib borishi bilan ko’tarilib boradigan stavkadir.",
+"Soliq sub’ekti deganda:" : "solik unduruvchilar va soliq to’lovchilar tushiniladi",
+"Soliqlarning funksiyalariga qaysilar kiradi?" : " Barcha javoblar to’g’ri",
+"Soliq stavkasi qanday ko’rinishlarda bo’ladi?" : " nisbiy va qat’iy",
+"Yuridik shaxslarning foyda solig’i solish ob’ektini aniqlashda jami daromaddan moliyaviy jarima va penya summalari chegirib tashlanadimi?" : " Chegirib tashlanadi",
+"Bilvosita soliqlar deb qanday soliqlarga aytiladi?" : " soliq yuki soliq to’lovchi emas balki, iste’molchining zimmasiga tushadigan soliqlarga aytiladi.",
+"Bevosita soliqlar deb qanday soliqlarga aytiladi?" : " soliq yuki to’g’ri soliq ob’ektiga ega bo’lgan soliq to’lovchilar zimmasiga tushadigan soliqlarga aytiladi.",
+"Soliqlar bu….." : " korxonalar, tashkilotlar, fuqorolar daromadlarining bir qismini qonuniy tartibda, belgilangan miqdor va muddatlarda, davlat byudjeti daromadlarini tashkil etish maqsadida davlat ixtiyoriga olinadigan pul mablag’laridir.",
+"Yig’imlarning o’ziga xos xususiyati nimada?" : "manfaatliligida",
+"Тo’lovlarning o’ziga xos xususiyati nimada?" : "maqsadliligida"
+};
+
+// Function to find a matching question with partial matching and context
+function findMatchingAnswer(userInput, database) {
+    var maxLengthDifference = 5; // Adjust the maximum allowed length difference
+
+    for (var question in database) {
+        if (database.hasOwnProperty(question)) {
+            // Check if the lengths are close
+            var lengthDifference = Math.abs(question.length - userInput.length);
+            if (lengthDifference <= maxLengthDifference) {
+                // Use a regular expression for partial matching
+                var regex = new RegExp(userInput, 'i');
+                if (question.match(regex)) {
+                    return database[question]; // Return the answer
+                }
+            }
+        }
+    }
+    return null;
+}
+
+// Function to simulate text markup and get trimmed text
+function simulateTextMarkup() {
+    var selection = window.getSelection();
+    if (selection && !selection.isCollapsed) {
+        var trimmedText = selection.toString().trim(); // Get the trimmed text
+
+        if (trimmedText.length > 0) {
+            var matchingAnswer = findMatchingAnswer(trimmedText, questionAnswerDatabase);
+            var answerContainer = document.getElementById("answerContainer");
+            var websiteBackgroundColor = getComputedStyle(document.body).backgroundColor;
+
+            if (matchingAnswer) {
+                // Display the matched answer
+                answerContainer.innerHTML = matchingAnswer;
+                answerContainer.style.color = "#c4c4c4";
+                answerContainer.style.fontSize = "14px"; // Set text color to grey
+                answerContainer.style.background = websiteBackgroundColor; // Match website's background
+                answerContainer.style.opacity = 1; // Make answer visible
+
+                // Reset answer after 10 seconds
+                setTimeout(function () {
+                    answerContainer.innerHTML = "";
+                    answerContainer.style.color = ""; // Reset text color
+                    answerContainer.style.background = ""; // Reset background
+                    answerContainer.style.opacity = 0.5; // Gray out the answer
+                }, 3800);
+            }
+        }
+    }
+}
+
+// Event listener for mouseup event (triggered when the user releases the mouse button)
+document.addEventListener("mouseup", simulateTextMarkup);
+
+// Create the answer container
+var answerContainer = document.createElement("div");
+answerContainer.id = "answerContainer";
+document.body.appendChild(answerContainer);
+
+// Apply styles to the answer container
+answerContainer.style.position = "fixed";
+answerContainer.style.bottom = "10px";
+answerContainer.style.left = "10px";
+answerContainer.style.padding = "10px";
+answerContainer.style.borderRadius = "5px";
+answerContainer.style.opacity = 0; // Set initial opacity to hide the answer
