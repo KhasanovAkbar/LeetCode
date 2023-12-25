@@ -1,16 +1,23 @@
 package leetCode;
 
 public class DiameterOfBinaryTree543 {
-    int diameter = 0;
+
 
     public int diameterOfBinaryTree(TreeNode root) {
         //
-        if (root == null) return 0;
-        diameterOfBinaryTree(root.left);
-        diameter++;
-        diameterOfBinaryTree(root.right);
-        diameter = Math.max(diameter, 0);
-        return diameter;
+        int[] diameter = new int[1];
+        height(root, diameter);
+        return diameter[0];
+    }
+
+    private int height(TreeNode node, int[] diameter) {
+        if (node == null) {
+            return 0;
+        }
+        int lh = height(node.left, diameter);
+        int rh = height(node.right, diameter);
+        diameter[0] = Math.max(diameter[0], lh + rh);
+        return 1 + Math.max(lh, rh);
     }
 
     public static void main(String[] args) {
