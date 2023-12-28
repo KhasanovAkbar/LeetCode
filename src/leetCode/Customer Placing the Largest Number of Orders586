@@ -1,0 +1,22 @@
+Input:
+Orders table:
++--------------+-----------------+
+| order_number | customer_number |
++--------------+-----------------+
+| 1            | 1               |
+| 2            | 2               |
+| 3            | 3               |
+| 4            | 3               |
++--------------+-----------------+
+Output:
++-----------------+
+| customer_number |
++-----------------+
+| 3               |
++-----------------+
+
+select customer_number
+from Orders
+Group by customer_number
+order by count(order_number) desc
+limit 1;
