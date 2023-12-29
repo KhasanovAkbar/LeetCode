@@ -18,7 +18,7 @@ public class BinaryTreePreorderTraversal144 {
 
     public static void main(String[] args) {
         BinaryTreePreorderTraversal144 b = new BinaryTreePreorderTraversal144();
-        TreeNode node = new TreeNode();
+        TreeNode node = new TreeNode(1);
         node.left = new TreeNode(2);
         node.right = new TreeNode(3);
         node.left.left = new TreeNode(4);
