@@ -21,7 +21,6 @@ public class MinimumAbsoluteDifferenceInBST530 {
         Collections.sort(numbers);
         for (int i = 0; i < numbers.size() - 1; i++)
             ans = Math.min((numbers.get(i + 1) - numbers.get(i)), ans);*/
-
         return ans;
     }
 
