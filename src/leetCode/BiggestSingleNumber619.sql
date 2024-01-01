@@ -22,6 +22,6 @@ Output:
 select  max(num) as nums
 from (
     select num from MyNumbers
-               group by num
-               having count(*) =1
+         group by num
+         having count(*) =1
      ) as SingleNumbers;

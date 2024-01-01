@@ -17,7 +17,8 @@ Output:
 | 1  | War        | great 3D    | 8.9    |
 +----+------------+-------------+--------+*/
 
-select * from Cinema
+select *
+from Cinema
 where (id % 2) =1
 and description = 'boring'
 order by rating desc ;

@@ -12,6 +12,21 @@ public class MergeTwoBinaryTrees617 {
         return root1;
     }
 
+    static void inorder(TreeNode node)
+    {
+        if (node == null)
+            return;
+
+        /* first recur on left child */
+        inorder(node.left);
+
+        /* then print the data of node */
+        System.out.printf("%d ", node.val);
+
+        /* now recur on right child */
+        inorder(node.right);
+    }
+
     public static void main(String[] args) {
         MergeTwoBinaryTrees617 m = new MergeTwoBinaryTrees617();
         TreeNode node1 = new TreeNode(1);
@@ -30,18 +45,5 @@ public class MergeTwoBinaryTrees617 {
 
 
     }
-    static void inorder(TreeNode node)
-    {
-        if (node == null)
-            return;
 
-        /* first recur on left child */
-        inorder(node.left);
-
-        /* then print the data of node */
-        System.out.printf("%d ", node.val);
-
-        /* now recur on right child */
-        inorder(node.right);
-    }
 }

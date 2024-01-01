@@ -28,6 +28,7 @@ public class CanPlaceFlowers605 {
     public static void main(String[] args) {
         CanPlaceFlowers605 c = new CanPlaceFlowers605();
         int[] nums = {1, 0, 0, 0, 0, 1};
+//        int[] nums = {1, 0, 0, 0, 0, 1};
         System.out.println(c.canPlaceFlowers(nums, 2));//true
     }
 }
