@@ -17,6 +17,7 @@ public class CanPlaceFlowers605 {
                 if (emptyLeftPlot && emptyRightPlot) {
                     flowerbed[i] = 1;
                     count++;
+
                 }
             }
         }
