@@ -19,4 +19,5 @@ public class MaximumProductThreeNumbers628 {
         int[] nums = {-1, -2, -3, -4};
         System.out.println(m.maximumProduct(nums));
     }
+
 }
