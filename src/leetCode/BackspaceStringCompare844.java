@@ -31,5 +31,6 @@ public class BackspaceStringCompare844 {
 
         BackspaceStringCompare844 b = new BackspaceStringCompare844();
         System.out.println(b.backspaceCompare("a#c", "c"));//true
+        System.out.println(b.backspaceCompare("a#c#", "c#"));//true
     }
 }

@@ -39,32 +39,6 @@ public class BuddyStrings859 {
         }
 
         return s.equals(goal);
-        /*boolean result = false;
-        if (s.length() != goal.length()) return false;
-        else if (s.equals(goal)) {
-            boolean temp = false;
-            for (int i = 0; i < s.length(); i++) {
-                for (int j = i + 1; j < s.length(); j++) {
-                    if (s.charAt(i) == s.charAt(j)) {
-                        temp = true;
-                        break;
-                    }
-                }
-                if (temp) break;
-            }
-            return temp;
-        } else {
-            int count = 0;
-            for (int i = 0; i < s.length(); i++) {
-                if (s.charAt(i) != goal.charAt(i)) count++;
-            }
-
-            if (count != 2) result = false;
-
-        }
-
-
-        return result;*/
     }
 
     public static void main(String[] args) {
