@@ -10,9 +10,10 @@ public class FairCandySwap888 {
 
     public static void main(String[] args) {
         FairCandySwap888 f = new FairCandySwap888();
-        int[] num1 = {1, 1};
         int[] num2 = {2, 2};
+        int[] num1 = {1, 1};
         int[] ints = f.fairCandySwap(num1, num2);
+
         for (int anInt : ints) {
             System.out.print(anInt + " ");
         }
