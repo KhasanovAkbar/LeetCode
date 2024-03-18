@@ -7,6 +7,7 @@ public class Egg {
 
 
     public static void main(String[] args) {
+        
         Egg egg = new Egg();
         System.out.println(egg.number);
     }
