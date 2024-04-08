@@ -1,9 +1,13 @@
 import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.List;
 
 public class SamsaraPreScreen {
 
     public static void main(String[] args) {
+
+        System.out.println(1%2);
+
         SamsaraPreScreen samsara = new SamsaraPreScreen();
         String[][] chat = {
                 {"1", "Hello how r u"},
@@ -31,20 +35,18 @@ public class SamsaraPreScreen {
         StringBuilder userMsg2 = new StringBuilder();
         for (String[] message : messages) {
             List<String> words = new ArrayList<>();
-            for (int i = 0; i < message[1].length();) {
-                if((i+ userWidth)<message[1].length()){
-                    if (message[1].charAt(i+userWidth) == ' '){
+            for (int i = 0; i < message[1].length(); ) {
+                if ((i + userWidth) < message[1].length()) {
+                    if (message[1].charAt(i + userWidth) == ' ') {
                         words.add(message[1].substring(i, i + userWidth));
-                        i+=userWidth;
+                        i += userWidth;
                         i++;
-                    }
-                    else {
+                    } else {
                         String trim = message[1].substring(i).trim();
                         words.add(trim.substring(0, trim.indexOf(' ')));
-                        i+=trim.indexOf(' ')+1;
+                        i += trim.indexOf(' ') + 1;
                     }
-                }
-                else {
+                } else {
                     words.add(message[1].substring(i).trim());
                     break;
 
@@ -60,8 +62,8 @@ public class SamsaraPreScreen {
                 }
             } else {
                 for (String word : words) {
-                        userMsg2.append("|");
-                        userMsg2.append(" ".repeat(width - word.length())).append(word);
+                    userMsg2.append("|");
+                    userMsg2.append(" ".repeat(width - word.length())).append(word);
                     userMsg2.append("|");
                     result.add(userMsg2.toString());
                     userMsg2 = new StringBuilder();
