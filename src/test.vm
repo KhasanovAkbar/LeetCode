@@ -1,0 +1,34 @@
+<UDFS>
+    #if( $UDFType == "UDF" )
+        #foreach( $udf in $UDFs )
+            <UDF name="$udf.name" type="$udf.type" size="$udf.size" required="$udf.required"
+                 displayOrder="$udf.displayOrder" description="$udf.description"/>
+        #end
+        #set( $UDFType = "UDF" )
+
+    #end
+
+    <PRODUCT_HEADER>
+        <PRODUCT_NAME>$PRODUCT_NAME</PRODUCT_NAME>
+        <PRODUCT_DESCRIPTION>$PRODUCT_DESCRIPTION</PRODUCT_DESCRIPTION>
+        <PRODUCT_TYPE>$PRODUCT_TYPE</PRODUCT_TYPE>
+        <PRODUCT_CATEGORY>$PRODUCT_CATEGORY</PRODUCT_CATEGORY>
+        <PRODUCT_SUBCATEGORY>$PRODUCT_SUBCATEGORY</PRODUCT_SUBCATEGORY>
+        <PRODUCT_SUBTYPE>$PRODUCT_SUBTYPE</PRODUCT_SUBTYPE>
+        <PRODUCT_STP>
+            <UDFS>
+                #if( $UDFType == "PRODUCT" )
+                    #foreach( $udf in $UDFs )
+                        <UDF name="$udf.name" type="$udf.type" size="$udf.size" required="$udf.required"
+                             displayOrder="$udf.displayOrder" description="$udf.description"/>
+                    #end
+                    #set( $UDFType = "PRODUCT" )
+                #end
+
+            </UDFS>
+        </PRODUCT_STP>
+
+    </PRODUCT_HEADER>
+
+
+</UDFS>
